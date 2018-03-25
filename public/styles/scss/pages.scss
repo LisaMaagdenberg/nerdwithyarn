@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+// whole mounted vue instance
+.flex-parent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+// main content of page
+.page {
+  padding: 10px;
+  padding-top: 40px;
+  flex: 1;
+}
+
+// all h1 have same font
+h1 {
+  font-family: 'Handlee', cursive;
+}
