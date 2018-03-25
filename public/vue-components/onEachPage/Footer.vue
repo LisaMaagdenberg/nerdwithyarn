@@ -1,6 +1,6 @@
 <template>
   <div class="footer container">
-    <p>HELLOOOO</p>
+    <p>&copy; Lisa Maagdenberg 2018</p>
   </div>
 </template>
 
