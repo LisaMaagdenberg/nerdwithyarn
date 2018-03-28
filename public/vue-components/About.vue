@@ -7,7 +7,11 @@
         <div class="content col-xs-8">
           <p>Hi! My name is Lisa and I live in the Netherlands. </p>
           <p class="question">"What do you do with yarn?"</p>
-          <p>I started to crochet in 2016, although I learned to crochet about two years before. When I was a young girl, I learned how to knit in elementary school!</p>
+          <p>
+            I started to crochet in 2016, although I learned to crochet about two years before. When I was a young girl, I learned how to knit in elementary school!<br>
+            I fell in love with yarn, hooks, stitches, fiberfill and anything else crochet-related. I recently started knitting again as well, and I love it a lot more than I remembered. I also like to get creative with non-yarn materials,
+            but yarn is my go to material.
+          </p>
           <p class="question">"Ok, we get the yarn part. Why are you a nerd?"</p>
           <p>
             First of all, my day job is making websites! I am a full-stack javascript developer and I made this website from scratch. Cool, huh?<br>
