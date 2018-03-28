@@ -3,22 +3,27 @@
     <Menu></Menu>
     <div class="page">
       <h1>About the Nerd with yarn</h1>
-      <div class="about">
-        <p>Hi! My name is Lisa and I live in the Netherlands. </p>
-        <p class="question">"What do you do with yarn?"</p>
-        <p>I started to crochet in 2016, although I learned to crochet about two years before. When I was a young girl, I learned how to knit in elementary school!</p>
-        <p class="question">"Ok, we get the yarn part. Why are you a nerd?"</p>
-        <p>
-          First of all, my day job is making websites! I am a full-stack javascript developer and I made this website from scratch. Cool, huh?<br>
-          Second of all, I love a lot of geeky stuff: Pokémon, games like World of Warcraft, Harry Potter and Star Wars to name a few. I owe a lot of that love to my boyfriend:
-          without him I would have never started gaming.<br>
-          Third of all, learning new cool things is one of my hobbies. I love to learn and to read, so you can imagine I loved school as well. That makes me a nerd in three definitions of the word!
-        </p>
-        <p class="question">"Cool! And what can I do on your website?"</p>
-        <p>
-          You can read my blog, where I share my experience with crochet. Also, you can go to my Etsy shop to browse cool stuff! Please note that patterns are "shipped" worldwide, but handmade items only in the Netherlands.
-          That's it for now, but I have a lot planned for this website! I'll keep you posted.
-        </p>
+      <div class="row">
+        <div class="content col-xs-8">
+          <p>Hi! My name is Lisa and I live in the Netherlands. </p>
+          <p class="question">"What do you do with yarn?"</p>
+          <p>I started to crochet in 2016, although I learned to crochet about two years before. When I was a young girl, I learned how to knit in elementary school!</p>
+          <p class="question">"Ok, we get the yarn part. Why are you a nerd?"</p>
+          <p>
+            First of all, my day job is making websites! I am a full-stack javascript developer and I made this website from scratch. Cool, huh?<br>
+            Second of all, I love a lot of geeky stuff: Pokémon, games like World of Warcraft, Harry Potter and Star Wars to name a few. I owe a lot of that love to my boyfriend:
+            without him I would have never started gaming.<br>
+            Third of all, learning new cool things is one of my hobbies. I love to learn and to read, so you can imagine I loved school as well. That makes me a nerd in three definitions of the word!
+          </p>
+          <p class="question">"Cool! And what can I do on your website?"</p>
+          <p>
+            You can read my blog, where I share my experience with crochet. Also, you can go to my Etsy shop to browse cool stuff! Please note that patterns are "shipped" worldwide, but handmade items only in the Netherlands.
+            That's it for now, but I have a lot planned for this website! I'll keep you posted.
+          </p>
+        </div>
+        <div class="col-xs-3">
+          <Side></Side>
+        </div>
       </div>
     </div>
     <Footer></Footer>
@@ -28,10 +33,12 @@
 <script>
 import Menu from './onEachPage/Menu.vue';
 import Footer from './onEachPage/Footer.vue';
+import Side from './onEachPage/Side.vue';
 export default {
   components: {
     Menu,
-    Footer
+    Footer,
+    Side
   }
 }
 </script>
