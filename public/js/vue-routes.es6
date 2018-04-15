@@ -5,6 +5,7 @@ import Shop from './../vue-components/Shop.vue';
 import About from './../vue-components/About.vue';
 import Blog from './../vue-components/Blog.vue';
 import Patterns from './../vue-components/Patterns.vue';
+import Books from './../vue-components/Books.vue';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
@@ -19,7 +20,8 @@ const routes = [
   { path: '/blog', component: Blog || NotFound },
   { path: '/about', component: About || NotFound },
   { path: '/shop', component: Shop || NotFound },
-  { path: '/freepatterns', component: Patterns || NotFound }
+  { path: '/freepatterns', component: Patterns || NotFound },
+  { path: '/books', component: Books || NotFound }
 ];
 
 const router = new VueRouter({
